@@ -1,0 +1,66 @@
+.khung{
+
+    position: relative;
+    display: revert;
+    width: 300px;
+    height: 380px;
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: 1px solid #ffffff;
+    -webkit-box-shadow: 0px 0px 45px -6px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 45px -6px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 45px -6px rgba(0,0,0,0.55);
+    top: 270px;
+    mask-size: cover;
+    background: lightgrey;
+}
+.nhap{
+    position: relative;
+    border-radius: inherit;
+    text-align: start;
+    color: darkblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+body{
+    background: url("I-turned.gif");
+    background-size: cover;
+    font-family: sans-serif;
+    background-position-y: -80px;
+}
+input {
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+
+}
+h2{
+    color: #868787;
+    margin-bottom: -5px;
+}
+h4{
+    margin-bottom: 1px;
+    text-align: start;
+}
+button{
+    width: 90px;
+    height: 40px;
+    margin-bottom: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    border: none;
+    background-color: #45a049 ;
+    color: white;
+}
+button:hover{
+    font-size: 15px;
+    color: bisque;
+}
+.phimDN{
+    margin-bottom: 85px;
+}
+
