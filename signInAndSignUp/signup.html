@@ -7,24 +7,24 @@
 <script src="codeJS.js"></script>
 <link rel="stylesheet" href="style.css">
 <body>
-<center>
+<div style="text-align: center; justify-content: center; display: flex">
   <div class="khung">
     <h2>Sign Up</h2>
     <h4>Tài khoản đăng ký: </h4>
-    <div class="nhap">  <img src="account-25-512.png" style="width: 25px; align-items: start; position: relative" ><label
+    <div class="nhap">  <img src="account-25-512.png" style="width: 25px; align-items: start; position: relative"  alt="user"><label
             for="taiKhoanDangKy"></label><input type="text" placeholder="username" id="taiKhoanDangKy"></div>
     <h4>Mật khẩu:</h4>
-    <div class="nhap"> <img src="key_password_icon_142997.png" style="width: 25px; align-items: start; position: relative" ><label
+    <div class="nhap"> <img src="key_password_icon_142997.png" style="width: 25px; align-items: start; position: relative"  alt="pass"><label
             for="matKhauDangKy"></label><input type="password" placeholder="password" id="matKhauDangKy" ></div>
     <h4>Nhập lại mật khẩu:</h4>
-    <div class="nhap"> <img src="key_password_icon_142997.png" style="width: 25px; align-items: start; position: relative" ><label
+    <div class="nhap"> <img src="key_password_icon_142997.png" style="width: 25px; align-items: start; position: relative"  alt="rePass"><label
             for="nhapLaiMatKhauDangKy"></label><input type="password" placeholder="confirm password" id="nhapLaiMatKhauDangKy"></div>
     <div id="nhapsai" class="nhapSai" style="color: red; font-size: 16px; margin-bottom: 5px">&nbsp;</div>
-    <button type="submit" id="nutDK" >Đăng Ký</button>
+    <button id="nutDK" onclick="signUp()" >Đăng Ký</button>
     <p><i>Bạn đã có tài khoản? <a href="login.html">Đăng nhập</a></i></p>
 
   </div>
-</center>
+</div>
 
 
 

@@ -7,23 +7,23 @@
 <script src="codeJS.js"></script>
 <link rel="stylesheet" href="style.css">
 <body>
-<center style="align-items: stretch;">
+<div style="text-align: center; justify-content: center; display: flex">
 
     <div class="khung" >
         <h2>Sign In</h2>
         <h4>Tài khoản đăng ký: </h4>
-        <div class="nhap"> <img src="account-25-512.png" style="width: 25px; align-items: start; position: relative">
-            <label for="taiKhoanDangNhap"></label><input type="text" placeholder='password' id="taiKhoanDangNhap"> </div>
+        <div class="nhap"> <img src="account-25-512.png" style="width: 25px; align-items: start; position: relative" alt="user">
+            <label for="taiKhoanDangNhap"></label><input type="text" placeholder='username' id="taiKhoanDangNhap" oninput="kiemTraNhap()"> </div>
         <h4>Mật khẩu:</h4>
-        <div class="nhap"> <img src="key_password_icon_142997.png" style="width: 25px; align-items: start; position: relative" >
-            <label for="matKhauDangNhap"></label><input type="password" placeholder='password' id="matKhauDangNhap"> </div>
+        <div class="nhap"> <img src="key_password_icon_142997.png" style="width: 25px; align-items: start; position: relative"  alt="pass">
+            <label for="matKhauDangNhap"></label><input type="password" placeholder='password' id="matKhauDangNhap" oninput="kiemTraNhap()"> </div>
 
         <div id="chuaNhap" style="color: red; font-size: 16px">&nbsp;</div>
-        <button type="submit" id="phimDN" >Đăng nhập</button>
+        <button  id="phimDN" onclick="signIn()" >Đăng nhập</button>
 
         <p><i>Bạn chưa có tài khoản? <a href="signup.html">Đăng Ký</a></i></p>
     </div>
-</center>
+</div>
 
 </body>
 </html>
