@@ -35,11 +35,12 @@ function taoMoi() {
 }
 
 function sua(i) {
-    document.getElementById('hienThi').innerHTML = `<input  id="nhap" value = "${danhSachSanPham[i]}"> <button onclick="luu(${i})">Lưu</button>`;
+    document.getElementById('hienThi').innerHTML = `<input  id="nhap" value = "${danhSachSanPham[i].sanpham}"> <button onclick="luu(${i})">Lưu</button>`;
 }
 
 function luu(i) {
     danhSachSanPham[i].sanpham = document.getElementById('nhap').value;
+    localStorage.setItem('x',JSON.stringify(danhSachSanPham));
     list();
 }
 
