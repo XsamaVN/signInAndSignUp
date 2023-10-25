@@ -22,7 +22,7 @@ function signUp() {
            // Lưu lại danh sách tài khoản vào Local Storage
            localStorage.setItem('danhSachTaiKhoan', JSON.stringify(danhSachTaiKhoan));
            alert('Đăng ký thành công');
-           window.location.href = "login.html"
+           window.location.href = "index.html"
        }
         }
     } else {
@@ -63,7 +63,7 @@ function signIn() {
         }
         if(taiKhoanDN === 'admin1' && matKhauDN === 'admin1'){
             alert('chào mừng Admin đăng nhập')
-            window.location.href = 'index.html'
+            window.location.href = 'home.html'
         }
     } else {
         alert("Trình duyệt của bạn không hỗ trợ Local Storage.");

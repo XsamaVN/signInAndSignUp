@@ -1,7 +1,6 @@
 let danhSachSanPham = JSON.parse(localStorage.getItem('x'))|| [];
 
 function list() {
-    // let danhSachSanPham = JSON.parse(localStorage.getItem('x'))
     let str = '<h1>Danh sách sản phẩm</h1>';
     str += `<p>Số lượng sản phẩm: ${danhSachSanPham.length} </p>`;
     for (let i = 0; i < danhSachSanPham.length; i++) {
@@ -11,7 +10,6 @@ function list() {
 }
 
 function listMember() {
-    // let danhSachSanPham = JSON.parse(localStorage.getItem('x'))
     let str = '<h1>Danh sách sản phẩm</h1>';
     str += `<p>Số lượng sản phẩm: ${danhSachSanPham.length} </p>`;
     for (let i = 0; i < danhSachSanPham.length; i++) {
